@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+}
+* {
+  margin: 0%;
+  background-color: #007ea7;
+}
+
+div.loader {
+  width: 100vw;
+  height: 100vh;
+  animation-delay: 1s;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+circle,
+rect,
+line {
+  stroke-width: 5px;
+  stroke-linecap: round;
+  fill: #003249;
+}
+svg.loaderSvg {
+  width: max(20vw, 20vh);
+  height: max(20vh, 20vw);
+}
+
+svg.logo {
+  width: max(20, 20);
+  height: max(20, 20);
+}
